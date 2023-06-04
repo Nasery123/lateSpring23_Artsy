@@ -10,7 +10,7 @@ const routes = [
     path: '/',
     name: 'Home',
     component: loadPage('HomePage'),
-    beforeEnter(to, from, next){
+    beforeEnter(to, from, next) {
       console.log('YO THATS PRETTY COOL')
 
       // console.log({to, from , next})
@@ -29,12 +29,12 @@ const routes = [
     component: loadPage('ProfilePage')
   },
 
-  {
-    path: '/about',
-    name: 'About',
-    component: loadPage('AboutPage'),
-    beforeEnter: authSettled
-  },
+  // {
+  //   path: '/about',
+  //   name: 'About',
+  //   component: loadPage('AboutPage'),
+  //   beforeEnter: authSettled
+  // },
   {
     path: '/account',
     name: 'Account',

@@ -22,7 +22,7 @@
       </div>
     </div>
     <div class="card-footer text-end">
-      <button class="btn btn-outline-primary" type="submit">Save Account</button>
+      <button class="btn btn-outline-primary" type="submit">Save Changes</button>
     </div>
 
 
